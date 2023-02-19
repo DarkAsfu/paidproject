@@ -127,10 +127,24 @@ body {
 }
 
 .main-button a {
-  font-size: 14px;
+  font-size: 17px;
   color: #fff;
   background-color: #5b03e4;
-  padding: 12px 30px;
+  padding: 15px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+}
+.main-button2 a {
+  font-size: 17px;
+  color: #fff;
+  background-color: #fe4c1c;
+  padding: 15px 30px;
   display: inline-block;
   border-radius: 25px;
   font-weight: 400;
@@ -141,12 +155,17 @@ body {
   overflow: hidden;
 }
 
+
 .main-button a:hover {
   background-color: #5b03e4;
   color: #fff;
   opacity: 0.8;
 }
-
+.main-button2 a:hover {
+  background-color: #ff430f;
+  color: #fff;
+  opacity: 0.8;
+}
 .second-button a {
   font-size: 14px;
   color: #fff;
@@ -865,7 +884,7 @@ Banner Style
 
 .main-banner h4 em {
   font-style: normal;
-  color: #5b03e4;
+  color: #5b03e4
 }
 
 .main-banner h4 span {
@@ -898,21 +917,26 @@ client logo
   justify-content: space-around;
 }
 .ratings{
+  padding-top: 108px;
   background-image: url(../../images/apple-1.png);
   background-repeat: no-repeat;
   background-position-y: 31px;
   background-position-x: 352px;
+  background-color: #8c00ff;
+  padding-bottom: 50px;
 }
 .ratings .col{
   margin-top: 100px;
 }
 .fst-ring{
-  border: 20px solid #f0f6ff;
+  border: 20px solid #003f99;
   padding: 21px 5px;
   border-radius: 65px;
   margin-top: 50px;
   font-size: 30px;
   font-weight: 700;
+  color: #fff;
+  
 }
 .scd-ring {
   padding: 70px 14px 57px 13px;
@@ -926,6 +950,57 @@ client logo
 
 #offers{
   margin-top: 200px;
+}
+
+
+.bg-img{
+  background-image: url(../../images/bg-shape2-home6.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* height:233px; */
+  border-bottom: 1px solid #0049b1;
+
+}
+
+.dominate{
+  background-color: #1459ba;
+  padding: 30px 0;
+  background-image: url(../../images/bg2-dots-home6.png);
+  background-repeat: no-repeat;
+
+}
+.dominate h6{
+  color: #0ec6ff;
+}
+.dominate h2{
+  color: #fff;
+}
+.section-heading h2{
+  font-size: 36px;
+}
+.row1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dominate .column{
+  border: 2px solid #3b74c5;
+  margin-right: 30px ;
+  
+}
+.dominate .column:hover{
+  
+  background-color: #ff4c38;
+  
+  
+}
+.uniqueCol{
+  background-color: #ff4c38;
+}
+.why-choose2{
+  padding: 110px 0;
+  background-image: url(../../images/bg-shape3-home6.png);
+  background-size: cover;
 }
 /* 
 ---------------------------------------------
@@ -1907,6 +1982,15 @@ body {
   .main-banner .main-button a,
   .main-banner .second-button a {
     padding: 12px 20px;
+  }
+  .dominate .row1{
+    display: block;
+  }
+  .dominate .row1 .column{
+    margin-top: 10px;
+  }
+  .same{
+    display: block;
   }
   .projects .item .down-content {
     padding: 25px 15px 15px 15px;
